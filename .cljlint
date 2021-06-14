@@ -1,0 +1,4 @@
+{
+ :lint-as {web-middleware.core/rfn clojure.core/defn web-middleware.core/defph clojure.core/defn}
+ :linters {:unresolved-symbol {:exclude [(web-middleware.core/rfn [session-username session-level-ids])]}}
+}

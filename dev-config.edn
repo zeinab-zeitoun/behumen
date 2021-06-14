@@ -1,0 +1,14 @@
+;; WARNING
+;; The test-config.edn file is used for local environment variables, such as database credentials.
+;; This file is listed in .gitignore and will be excluded from version control by Git.
+
+{:dev true
+ :port 3000
+ :upload-path "./resources/public/uploaded/"
+ :generated-path "./resources/generated/"
+ :google-key "YOUR GOOGLE KEY HERE"
+ :root-user "root@rams.services"
+ :root-pass "test"
+ ; set your test database connection URL here
+ :database-url "mysql://localhost:3306/landing_dev?user=zeinab&password=Amazy..98&serverTimezone=UTC"
+}

@@ -1,0 +1,10 @@
+{
+    "linters": {
+      "rams": {
+	  "type": "script-and-regex",
+	  "script-and-regex.script": "sh -c 'clj-kondo --lint \"$0\" --config \".cljlint\" || true' ",
+	  "script-and-regex.regex": "/^(?P<file>.*):(?P<line>.*):(?P<char>.*): (?P<severity>warning|error): (?P<message>.*)$/m",
+	  "include": "(\\.clj*)"
+      }
+    }
+}

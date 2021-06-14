@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class="perfect-scrollbar-off">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>behumen</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    
+  </head>
+  <body class="">
+    <div id="app-body">
+    </div>
+    <script type="text/javascript">
+      var csrfToken = "{{csrf-token}}";
+      window.process = window.process || {env: {NODE_ENV: "prod"}};
+    </script>
+    
+    {% script "/js/app.js" %}
+    {% style "/css/app.css" %}
+    {% style "https://fonts.googleapis.com/css2?family=Montserrat&display=swap" %}
+
+  </body>
+</html>

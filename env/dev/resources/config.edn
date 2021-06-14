@@ -1,0 +1,7 @@
+{:google-key "PUT YOUR GOOGLE KEY HERE"
+ :root-user "root@rams.services"
+ :root-pass "dev"
+ :upload-path "./resources/public/uploaded/"
+ :generated-path "./resources/generated/"
+ :jwt-secret "behumen jwt secret"
+}

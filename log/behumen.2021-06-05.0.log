@@ -1,0 +1,680 @@
+2021-06-05 13:55:15,990 [nRepl-session-463f297f-1fbd-4f47-8421-53426a2c8f4f] INFO  behumen.env - 
+-=[behumen started successfully using the development profile]=- 
+2021-06-05 13:55:16,941 [nRepl-session-463f297f-1fbd-4f47-8421-53426a2c8f4f] INFO  luminus.http-server - starting HTTP server on port 3000 
+2021-06-05 13:56:38,865 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2021-06-05 13:56:40,521 [main] INFO  io.undertow - starting server: Undertow - 2.2.4.Final 
+2021-06-05 13:56:40,537 [main] INFO  org.xnio - XNIO version 3.8.0.Final 
+2021-06-05 13:56:40,798 [main] INFO  org.jboss.threads - JBoss Threads version 3.1.0.Final 
+2021-06-05 13:56:40,837 [main] DEBUG io.undertow - Configuring listener with protocol HTTP for interface 0.0.0.0 and port 9630 
+2021-06-05 14:05:33,579 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@1b9eec6e on HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:05:33,584 [XNIO-1 I/O-2] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:05:33,586 [XNIO-1 I/O-2] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2021-06-05 14:05:45,723 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@1b9eec6e on HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:05:45,724 [XNIO-1 I/O-1] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:05:46,444 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:05:46,450 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:05:51,470 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:05:56,481 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:01,494 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:06,502 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:11,509 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:16,517 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:21,525 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:26,533 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:31,545 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:36,566 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:41,577 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:46,583 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:51,589 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:06:56,600 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:01,609 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:06,615 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:11,623 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:16,630 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:21,638 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:26,643 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:31,649 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:36,657 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:41,668 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:46,673 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:51,680 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:07:56,685 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:01,693 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:06,700 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:11,706 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:16,713 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:21,718 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:26,726 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:31,734 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:36,741 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:41,748 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:46,755 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:51,763 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:08:56,769 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:01,775 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:06,783 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:11,788 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:16,794 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:21,800 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:26,806 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:31,814 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:36,822 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:41,829 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:46,835 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:51,840 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:09:56,846 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:01,853 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:06,859 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:11,866 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:16,872 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:21,878 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:26,892 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:27,546 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:32,555 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:37,563 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:42,570 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:47,625 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:52,633 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:10:57,642 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:02,649 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:07,656 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:12,664 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:17,673 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:22,680 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:27,686 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:32,690 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:37,697 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:42,702 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:47,710 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:52,720 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:11:57,727 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:02,733 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:07,739 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:12,745 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:16,156 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:21,165 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:26,172 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:31,178 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:36,185 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:41,191 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:46,198 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:51,205 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:12:56,211 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:01,216 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:06,220 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:11,225 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:16,231 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:21,239 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:26,246 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:31,253 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:36,260 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:41,267 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:46,273 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:51,278 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:13:56,285 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:01,291 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:06,298 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:11,304 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:16,311 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:21,317 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:26,324 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:31,329 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:36,337 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:41,343 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:46,350 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:51,357 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:54,753 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:14:59,763 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:04,771 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:09,777 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:14,784 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:19,791 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:24,798 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:29,803 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:34,809 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:39,817 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:44,824 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:49,831 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:54,327 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:15:59,336 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:04,342 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:09,349 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:14,356 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:19,362 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:24,370 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:29,376 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:34,381 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:39,387 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:44,393 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:49,400 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:54,406 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:16:59,412 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:04,419 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:09,425 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:14,434 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:19,440 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:21,777 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:26,808 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:31,815 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:36,822 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:41,828 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:46,833 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:51,839 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:17:55,985 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:00,993 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:06,002 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:11,010 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:16,018 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:21,024 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:26,030 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:31,034 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:36,041 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:39,875 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:43,202 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:48,212 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:53,219 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:18:58,230 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:03,242 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:08,252 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:13,224 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:18,231 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:23,239 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:28,247 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:33,252 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:36,181 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:41,190 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:46,202 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:51,209 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:19:56,218 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:01,224 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:06,238 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:11,248 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:16,257 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:19,577 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 9 
+2021-06-05 14:20:21,263 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:22,756 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 9 
+2021-06-05 14:20:24,233 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 9 
+2021-06-05 14:20:26,275 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:31,282 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:36,290 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:41,294 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:46,303 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:51,310 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:20:56,318 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:01,326 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:06,338 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:11,349 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:16,359 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:21,369 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:26,375 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:31,384 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:32,593 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@1b9eec6e on HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:21:32,594 [XNIO-1 I/O-4] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:21:32,594 [XNIO-1 I/O-4] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2021-06-05 14:21:33,609 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:33,614 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:36,390 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:38,621 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:41,396 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:43,644 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:46,404 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:48,864 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:51,410 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:53,888 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:56,417 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:21:58,969 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:01,424 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:03,993 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:06,430 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:09,004 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:11,437 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:14,013 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:16,443 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:19,059 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:21,451 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:24,069 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:24,868 [XNIO-1 I/O-4] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 8 
+2021-06-05 14:22:25,755 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@1b9eec6e on HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:22:25,756 [XNIO-1 I/O-2] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:22:25,756 [XNIO-1 I/O-2] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2021-06-05 14:22:26,459 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:26,874 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 8 
+2021-06-05 14:22:26,885 [XNIO-1 I/O-2] DEBUG io.undertow.request.io - Marking writes broken on channel WebSocket13Channel peer /192.168.72.253:37532 local 0.0.0.0/0.0.0.0:9630[ No Receiver [io.undertow.websockets.core.protocol.version07.WebSocket07CloseFrameSinkChannel@390e1052] -- [] -- []] 
+java.nio.channels.ClosedChannelException: null
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.markWritesBroken(AbstractFramedChannel.java:879)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.flushSenders(AbstractFramedChannel.java:695)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.flush(AbstractFramedChannel.java:742)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.queueFrame(AbstractFramedChannel.java:735)
+	at io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel.queueFinalFrame(AbstractFramedStreamSinkChannel.java:267)
+	at io.undertow.server.protocol.framed.AbstractFramedStreamSinkChannel.shutdownWrites(AbstractFramedStreamSinkChannel.java:244)
+	at io.undertow.websockets.core.WebSockets.flushChannelAsync(WebSockets.java:928)
+	at io.undertow.websockets.core.WebSockets.sendInternal(WebSockets.java:912)
+	at io.undertow.websockets.core.WebSockets.sendInternal(WebSockets.java:900)
+	at io.undertow.websockets.core.WebSockets.sendClose(WebSockets.java:856)
+	at io.undertow.websockets.core.WebSockets.sendClose(WebSockets.java:842)
+	at io.undertow.websockets.core.AbstractReceiveListener.onFullCloseMessage(AbstractReceiveListener.java:191)
+	at io.undertow.websockets.core.AbstractReceiveListener$1.complete(AbstractReceiveListener.java:136)
+	at io.undertow.websockets.core.AbstractReceiveListener$1.complete(AbstractReceiveListener.java:124)
+	at io.undertow.websockets.core.BufferedBinaryMessage.read(BufferedBinaryMessage.java:95)
+	at io.undertow.websockets.core.AbstractReceiveListener.readBufferedBinary(AbstractReceiveListener.java:124)
+	at io.undertow.websockets.core.AbstractReceiveListener.bufferFullMessage(AbstractReceiveListener.java:98)
+	at io.undertow.websockets.core.AbstractReceiveListener.onClose(AbstractReceiveListener.java:62)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:50)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:33)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:952)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:932)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)
+2021-06-05 14:22:31,463 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:36,471 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:41,478 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:46,485 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:51,492 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:54,313 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:22:59,322 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:04,330 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:09,337 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:14,344 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:19,351 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:24,357 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:29,365 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:34,372 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:39,380 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:44,388 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:49,398 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:54,405 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:23:59,410 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:04,418 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:09,425 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:14,432 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:16,435 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - Attempting websocket handshake with io.undertow.websockets.core.protocol.version13.Hybi13Handshake@1b9eec6e on HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:24:16,436 [XNIO-1 I/O-1] DEBUG io.undertow.request - Upgrading request HttpServerExchange{ GET /api/remote-relay} 
+2021-06-05 14:24:16,436 [XNIO-1 I/O-1] DEBUG i.undertow.websockets.core.extension - Negotiated extension WebSocketExtension{name='permessage-deflate', parameters=[]} for handshake WebSocketExtension{name='permessage-deflate', parameters=[{'client_max_window_bits': 'null'}]} 
+2021-06-05 14:24:18,688 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:18,690 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:19,440 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:23,705 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:24,446 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:28,732 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:29,452 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:33,755 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:34,457 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:38,814 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:39,465 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:43,846 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:44,471 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:49,108 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:49,503 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:54,143 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:54,510 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:59,176 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:24:59,518 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:04,199 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:04,526 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:09,234 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:09,532 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:14,267 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:14,539 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:19,297 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:19,546 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:24,318 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:24,551 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:29,390 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:29,557 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:34,428 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:34,562 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:39,459 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:39,569 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:44,517 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:44,577 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:49,534 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:49,584 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:54,567 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:54,589 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:59,582 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:25:59,602 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:04,609 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:04,630 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:09,616 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:09,649 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:14,623 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:14,660 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:19,631 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:19,710 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:24,638 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:24,737 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:29,645 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:29,766 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:34,651 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:34,795 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:39,657 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:39,826 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:44,661 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:44,884 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:49,667 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:49,897 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:54,672 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:54,920 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:26:59,677 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:00,060 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:04,684 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:05,087 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:09,692 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:10,152 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:14,699 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:15,177 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:19,706 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:20,200 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:24,713 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:25,228 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:29,718 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:30,256 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:34,724 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:35,296 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:35,478 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:36,098 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:40,487 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:41,118 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:45,494 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:46,140 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:50,501 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:51,152 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:55,510 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:27:56,205 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:00,518 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:01,224 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:05,524 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:06,243 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:10,531 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:11,263 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:15,537 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:16,285 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:20,543 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:21,305 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:25,547 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:26,320 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:30,553 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:31,339 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:35,558 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:36,360 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:40,565 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:41,374 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:45,570 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:46,543 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:50,577 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:51,567 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:55,585 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:28:56,587 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:00,592 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:01,609 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:05,599 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:06,628 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:10,604 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:11,658 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:15,613 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:16,678 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:20,619 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:21,711 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:25,627 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:26,735 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:30,633 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:31,758 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:35,640 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:36,782 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:40,648 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:41,801 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:45,654 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:46,816 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:50,657 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:51,829 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:54,213 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:54,336 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:59,229 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:29:59,386 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:04,239 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:04,396 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:09,254 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:09,427 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:14,263 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:16,044 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:19,271 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:21,063 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:24,281 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:26,104 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:29,288 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:31,150 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:34,296 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:36,168 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:39,303 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:41,223 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:44,311 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:46,255 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:49,321 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:51,267 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:54,328 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:56,295 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:30:59,344 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:01,312 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:04,353 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:06,551 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:09,362 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:11,606 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:14,373 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:16,667 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:19,380 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:21,687 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:24,390 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:26,701 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:29,398 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:31,721 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:34,406 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:36,749 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:39,409 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:41,774 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:44,412 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:46,817 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:49,421 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:51,833 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:54,429 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:56,852 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:31:59,435 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:02,035 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:04,440 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:07,114 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:09,448 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:12,136 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:14,454 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:17,175 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:19,461 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:22,199 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:24,466 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:27,224 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:29,471 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:32,299 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:34,478 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:37,398 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:39,485 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:42,412 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:44,491 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:47,672 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:49,496 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:52,702 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:54,503 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:57,720 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:32:59,510 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:02,747 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:04,516 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:07,776 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:09,520 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:12,794 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:14,527 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:17,812 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:19,532 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:22,828 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:24,537 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:27,843 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:29,543 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:32,875 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:34,549 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:38,000 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:39,555 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:43,016 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:44,561 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:48,059 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:49,567 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:53,154 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:54,573 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:58,180 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:33:59,579 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:03,194 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:04,585 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:08,211 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:09,591 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:13,270 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:14,597 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:18,283 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:19,601 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:23,308 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:24,606 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:28,854 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:29,609 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:33,900 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:34,614 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:38,914 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:39,621 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:43,936 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:44,629 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:49,013 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:49,641 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:54,062 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:54,650 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:59,078 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:34:59,658 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:04,453 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:04,667 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:09,465 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:09,673 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:14,478 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:14,679 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:19,501 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:19,708 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:24,529 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:24,712 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:29,548 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:29,719 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:34,563 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:34,726 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:39,650 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:39,734 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:44,737 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:44,743 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:49,749 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:49,769 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:54,754 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:54,781 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:59,760 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:35:59,807 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:04,767 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:04,835 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:09,769 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:09,856 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:14,774 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:15,512 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:19,780 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:20,610 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:24,788 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:25,999 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:29,792 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:31,027 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:34,797 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:36,223 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:39,799 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:41,246 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:44,805 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:46,256 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:49,813 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:51,279 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:54,818 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:56,299 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:36:59,823 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:01,340 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:04,829 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:06,367 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:09,834 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:11,404 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:14,839 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:16,454 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:19,846 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:21,478 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:24,851 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:26,512 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:29,856 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:31,576 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:34,861 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:36,609 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:39,867 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:41,638 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:44,873 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:46,704 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:49,878 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:51,732 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:54,883 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:56,767 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:37:59,888 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:01,841 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:04,893 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:06,880 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:09,898 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:11,907 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:14,902 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:16,952 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:19,905 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:21,963 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:24,910 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:27,038 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:29,916 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:32,060 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:34,922 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:37,098 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:39,929 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:42,141 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:44,934 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:47,169 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:49,946 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:51,948 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 8 
+2021-06-05 14:38:52,205 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:38:57,929 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:02,962 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:08,008 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:13,065 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:18,096 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:23,114 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:28,132 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:33,157 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:38,182 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:43,222 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:48,246 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:53,273 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:39:58,470 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:40:03,495 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:40:08,513 [XNIO-1 I/O-1] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-05 14:40:09,339 [XNIO-1 I/O-1] DEBUG io.undertow.request.io - Marking reads broken on channel WebSocket13Channel peer /192.168.72.253:37554 local /192.168.72.132:9630[ No Receiver [] -- [] -- []] 
+java.nio.channels.ClosedChannelException: null
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.markReadsBroken(AbstractFramedChannel.java:844)
+	at io.undertow.websockets.core.WebSocketChannel.markReadsBroken(WebSocketChannel.java:146)
+	at io.undertow.websockets.core.protocol.version07.WebSocket07Channel.markReadsBroken(WebSocket07Channel.java:100)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel.receive(AbstractFramedChannel.java:485)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:38)
+	at io.undertow.websockets.core.AbstractReceiveListener.handleEvent(AbstractReceiveListener.java:33)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:952)
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameReadListener.handleEvent(AbstractFramedChannel.java:932)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)
+2021-06-05 14:44:42,656 [Thread-2] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2021-06-05 14:44:43,589 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
