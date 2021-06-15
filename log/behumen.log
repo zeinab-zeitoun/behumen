@@ -7268,3 +7268,9 @@ java.nio.channels.ClosedChannelException: null
 2021-06-14 18:49:13,798 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
 2021-06-14 18:49:18,801 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
 2021-06-14 18:49:23,804 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-14 18:49:28,807 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-14 18:49:33,810 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-14 18:49:38,812 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-14 18:49:43,815 [XNIO-1 I/O-2] DEBUG io.undertow.websockets.core.request - UT025003: Decoding WebSocket Frame with opCode 1 
+2021-06-14 18:49:46,880 [Thread-2] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
+2021-06-14 18:49:47,413 [main] INFO  io.undertow - stopping server: Undertow - 2.2.4.Final 
