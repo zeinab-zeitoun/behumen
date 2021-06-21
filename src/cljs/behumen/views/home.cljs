@@ -8,14 +8,17 @@
             [bouncer.core :as b]
             [rams-ui.util :refer [set-value get-value gen-uuid]]
             [behumen.utils :as utils]
-            [behumen.views.appcomponents :refer [category-container]]
-            [behumen.views.common :refer [app-container appbar footer break]]
+            [behumen.views.appcomponents :refer [category-container-odd-position
+                                                 category-container-even-position]]
+            [behumen.views.common :refer [app-container appbar footer break 
+                                          behumen-symbol scrollTo]]
             [behumen.validation :refer [email-validation]]
+
             [rams-ui.components.cards :refer [card]]
-            [rams-ui.components.dialog :refer [modal]]
+
             [reagent-material-ui.core.box :refer [box]]
             [reagent-material-ui.core.typography :refer [typography]]
-            [reagent-material-ui.styles :refer [make-styles with-styles]]
+            [reagent-material-ui.styles :refer [make-styles]]
             [reagent-material-ui.core.text-field :refer [text-field]]
             [reagent-material-ui.core.container :refer [container]]
             [reagent-material-ui.core.hidden :refer [hidden]]
@@ -23,72 +26,83 @@
             [reagent-material-ui.core.button :refer [button]]
             [reagent-material-ui.core.snackbar :refer [snackbar]]
             [reagent-material-ui.core.dialog :refer [dialog]]
-            [reagent-material-ui.core.dialog-title :refer [dialog-title]]
             [reagent-material-ui.lab.alert :refer [alert]]
             [reagent-material-ui.lab.alert-title :refer [alert-title]]
             [reagent-material-ui.icons.favorite-border :refer [favorite-border]]
-            [reagent-material-ui.icons.flare :refer [flare]]
-            [reagent-material-ui.icons.local-hospital :refer [local-hospital]]))
+            [reagent-material-ui.icons.flare :refer [flare]]))
 
 (def use-styles
   (make-styles (fn [theme]
-                  {:main-text {:font-size "4rem"
-                               :font-weight "900"
-                               "@media (max-width:1500px)" 
-                               {:font-size "2.5rem"}
-                               "@media (max-width:600px)" 
-                               {:font-size "1.8rem"}}
-                   :sub-main-text {:font-size "2.5rem"
-                                   :font-weight "500"
-                                   "@media (max-width:1500px)" 
-                                   {:font-size "1.8rem"}
-                                   "@media (max-width:600px)" 
-                                   {:font-size "1.5rem"}}
-                   :paragraph {:font-size "1.5rem"
-                               "@media (max-width:600px)"
-                               {:font-size "1.4rem"}}
-                   :sm-paragraph {:font-size "1.2rem"
-                               "@media (max-width:1500px)" 
-                               {:font-size "1.2rem"}}
-                   :access-btn {:font-size "1rem"
-                                :font-weight "bold"
-                                :margin-left "1rem"
-                                :color "white"
-                                :background "linear-gradient(45deg, #ffa400, #9b6300)"
+                 {:main-text {:font-size "4rem"
+                              :font-weight "900"
+                              "@media (max-width:1500px)" 
+                              {:font-size "2.5rem"}
+                              "@media (max-width:600px)" 
+                              {:font-size "1.8rem"}}
+                  :sub-main-text {:font-size "2.5rem"
+                                  :font-weight "500"
+                                  "@media (max-width:1500px)" 
+                                  {:font-size "1.8rem"}
+                                  "@media (max-width:600px)" 
+                                  {:font-size "1.5rem"}}
+                  :paragraph {:font-size "1.5rem"
+                              "@media (max-width:600px)"
+                              {:font-size "1.3rem"}}
+                  :sm-paragraph {:font-size "1.2rem"
+                                 "@media (max-width:1500px)" 
+                                 {:font-size "1.2rem"}}
+                  :modal-text  {:font-size "1.5rem"
+                                :margin "1rem"
+                                :margin-bottom "2rem"
                                 "@media (max-width:600px)"
-                                {:font-size "0.8rem"
-                                 :margin-left "0.5rem"}
-                                }
-                   :secondary-access-btn {:font-size "1rem"
-                                          :font-weight "bold"
-                                          :margin-top "2rem"
-                                          :color "white"
-                                          :background "linear-gradient(90deg ,#001e62, #000e30)"}
-                   :centered-large-text {:font-size "3.8rem"
-                                         :margin "3rem"
-                                         :text-align "center" 
-                                         :font-weight "700"
-                                         "@media (max-width:600px)"
-                                         {:font-size "2.5rem"}}
-                   :title {:font-size "2rem"
-                           :margin "1rem"
-                           :font-weight "bold"
-                            "@media (max-width:600px)"
-                            {:font-size "1.4rem"}}
-                   :icon {:margin "1rem"}
-                   :appbar-btn {:font-weight "900"
-                                :font-size "1.2rem"
-                                :color "white"}
-                   :align-right {:flex-direction "row"
-                                 :display "flex"
-                                 :justify-content "flex-start"
-                                 :align-items "center"}
-                   :email-error {:color "#e00146"
-                                 :margin-top "0.5rem"
-                                 :font-size "0.8rem"}
-                   :email-input {:width "50%"
-                                 "@media (max-width:600px)"
-                                 {:width "100%"}}})))
+                                {:font-size "1.4rem"}}
+                  :main-access-btn {:font-size "1rem"
+                                    :font-weight "bold"
+                                    :margin-left "1rem"
+                                    :color "white"
+                                    :background "linear-gradient(45deg, #ffa400, #9b6300)"
+                                    "@media (max-width:600px)"
+                                    {:font-size "0.8rem"
+                                     :margin-left "0.5rem"}}
+                  :modal-access-btn {:font-size "1rem"
+                                     :font-weight "bold"
+                                     :margin-left "1rem"
+                                     :color "white"
+                                     :background "linear-gradient(90deg ,#001e62, #000e30)"
+                                     "@media (max-width:600px)"
+                                     {:font-size "0.8rem"
+                                      :margin-left "0.5rem"}}
+                  :secondary-access-btn {:font-size "1rem"
+                                         :font-weight "bold"
+                                         :margin-top "2rem"
+                                         :color "white"
+                                         :background "linear-gradient(45deg, #ffa400, #9b6300)"
+                                         }
+                  :centered-large-text {:font-size "3.8rem"
+                                        :margin "3rem"
+                                        :text-align "center" 
+                                        :font-weight "700"
+                                        "@media (max-width:600px)"
+                                        {:font-size "2.5rem"}}
+                  :title {:font-size "2rem"
+                          :margin "1rem"
+                          :font-weight "bold"
+                          "@media (max-width:600px)"
+                          {:font-size "1.4rem"}}
+                  :icon {:margin "1rem"}
+                  :appbar-btn {:font-weight "900"
+                               :font-size "1.2rem"
+                               :color "white"}
+                  :align-right {:flex-direction "row"
+                                :display "flex"
+                                :justify-content "flex-start"
+                                :align-items "center"}
+                  :email-error {:color "#e00146"
+                                :margin-top "0.5rem"
+                                :font-size "0.8rem"}
+                  :email-input {:width "50%"
+                                "@media (max-width:600px)"
+                                {:width "100%"}}})))
 
 (defn submit-email-response [email email-sent?] 
   (when (not (clojure.string/blank? @email))
@@ -100,7 +114,7 @@
         (reset! email-sent? true))
       (dispatch [:set-db-item [:invalid? :email] true]))))
 
-(defn email-input-and-btn [box-style]
+(defn email-input-and-btn [box-style button-style]
   (with-let [email (atom nil)
              email-sent? (atom false)]
     (let [styles (use-styles)
@@ -120,7 +134,7 @@
         [button
          {:variant "contained"
           :size "large"
-          :classes {:root (:access-btn styles)}
+          :classes {:root button-style}
           :on-click #(submit-email-response email email-sent?)}
          "Get early access"]]
        (when @invalid-email?
@@ -142,9 +156,9 @@
                           (dispatch [:set-db-item [:invalid? :email] false]))}
      [box {:p "1rem" :display "flex" :flex-direction "column" :text-align "center"
            :justify-content "center" :align-items "center"}
-      [typography {:className (:title styles)} "Submit your email adress to get early access!"]
-      [break]
-      [email-input-and-btn {:display "flex" :justify-content "center" :align-items "center"}]]]))
+      [typography {:className (:modal-text styles)} "Submit your email address to get early access!"]
+      [email-input-and-btn {:display "flex"}
+       (:modal-access-btn styles)]]]))
 
 (defn main-section []
  (with-let [_ (set-value :email nil)]
@@ -153,7 +167,9 @@
       [:div.main-image-bg
 
        [grid {:container true}
-
+        [grid {:item true
+               :lg 5
+               :xs 5}]
         [grid {:container true
                :item true
                :lg 7
@@ -174,13 +190,10 @@
           [grid {:item true
                  :lg 8}
            [break]
-           [email-input-and-btn {:className (:align-right styles)}]]
+           [email-input-and-btn {:className (:align-right styles)}
+            (:main-access-btn styles)]]
           [grid {:item true
-                 :lg 4}]]]
-
-        [grid {:item true
-               :lg 5
-               :xs 5}]]]
+                 :lg 4}]]]]]
 
       [hidden {:md-up true}
        [:div {:style
@@ -188,7 +201,8 @@
               :justify-content "center" :align-items "center" :text-align "center"}}
         [typography {:className (:paragraph styles)} "Offering a seamless online experience focusing on effective treatment plans by our licensed physicians and specialist doctors. "]
         [break]
-        [email-input-and-btn {:display "flex" :justify-content "center" :align-items "center"}]]]])))
+        [email-input-and-btn {:display "flex"}
+          (:main-access-btn styles)]]]])))
 
 (defn category-details [details]
   (let [styles (use-styles)]
@@ -202,16 +216,15 @@
        [box
         (for [condition (:conditions details)]
           ^{:key (gen-uuid)} [box {:className (:align-right styles)}
-               [local-hospital {:classes {:root (:icon styles)}}]
-               [typography {:className (:sm-paragraph styles)} condition]])]]
+                              [behumen-symbol (:icon styles)]
+                              [typography {:className (:sm-paragraph styles)} condition]])]]
         [box {:display "flex" :justify-content "center"}
          [button
           {:variant "contained"
            :size "large"
            :classes {:root (:secondary-access-btn (use-styles))}
            :on-click #(dispatch [:set-db-item [:open? :early-access-modal] true])}
-          "Get early access"]]
-      ]))
+          "Get early access"]]]))
 
 (defn category-image [image-url]
   [box {:text-align "center"}
@@ -220,59 +233,54 @@
 
 (defn sexual-health []
   (let [styles (use-styles)]
-    [category-container
-     [category-image "/img/healthy-sexual-life.jpg"]
-     [category-details {:title  "Sexual Health"
-                        :description ["We care about all aspects of men’s health so we approach it thoroughly. Receive precise, discreet and personalized care along with authentic prescriptions including medication packages addressing your sexual health conditions."]
-                        :conditions ["Erectile Dysfunction" "Premature Ejaculation"]
-                        :icon [favorite-border {:font-size "large"
-                                                :color "secondary"}]}]]))
+    [:div {:id "sexual-health"}
+     [category-container-odd-position
+      [category-image "/img/sexual-health.jpg"]
+      [category-details {:title  "Sexual Health"
+                         :description ["We care about all aspects of men’s health so we approach it thoroughly. Receive precise, discreet and personalized care along with authentic prescriptions including medication packages addressing your sexual health conditions."]
+                         :conditions ["Erectile Dysfunction" "Premature Ejaculation"]
+                         :icon [favorite-border {:font-size "large"
+                                                 :color "secondary"}]}]]]))
 
 (defn daily-health []
-  (let [styles (use-styles)
-        details    [category-details {:title  "Daily Health"
-                                      :description [ "The loss of testosterone both due to natural causes or other conditions combined with the lack of vital vitamins and minerals from the body cause symptoms that highly affect our mood and performance." "We offer personalized programs for testosterone support to make you always perform their daily tasks to their full potential."]
-                                      :conditions ["Multivitamins and Energy Support" "Testosterone Boost" "Testosterone Replacement Treatment"]
-                                      :icon [flare {:font-size "large"
-                                                              :color "secondary"}]}]
-        image      [category-image "/img/happy-man.jpg"]]
-
-    [box
-     [hidden {:sm-down true}
-      [category-container details image]]
-     [hidden {:md-up true}
-      [category-container image details]]]))
+  (let [styles (use-styles)]
+    [:div {:id "daily-health"}
+     [category-container-even-position
+      [category-details {:title  "Daily Health"
+                         :description ["The loss of testosterone both due to natural causes or other conditions combined with the lack of vital vitamins and minerals from the body cause symptoms that highly affect our mood and performance." "We offer personalized programs for testosterone support to make you always perform the daily tasks to their full potential."]
+                         :conditions ["Multivitamins and Energy Support" "Testosterone Boost" "Testosterone Replacement Treatment"]
+                         :icon [flare {:font-size "large"
+                                       :color "secondary"}]}]
+      [category-image "/img/daily-health.jpg"]]]))
 
 (defn skin-and-hair []
   (let [styles (use-styles)]
-    [category-container
-     [category-image "/img/healthy-skin-hair.jpg"]
-     [category-details {:title "Skin & Hair"
-                        :description ["Stress and fatigue are taking a toll on the way we look. We take care of all your needs for glowing skin and healthy hair."]
-                        :conditions ["Hair Loss" "Skin Revitalization & Anti Fatigue"]
-                        :icon [favorite-border {:font-size "large"
-                                      :color "secondary"}]}]]))
+    [:div {:id "skin-and-hair"}
+     [category-container-odd-position
+      [category-image "/img/skin-hair.jpg"]
+      [category-details {:title "Skin & Hair"
+                         :description ["Stress and fatigue are taking a toll on the way we look. We take care of all your needs for glowing skin and healthy hair."]
+                         :conditions ["Hair Loss" "Skin Revitalization & Anti Fatigue"]
+                         :icon [favorite-border {:font-size "large"
+                                                 :color "secondary"}]}]]]))
 
 
 (defn metabolic-health-and-weight-management []
-  (let [styles (use-styles)
-        details   [category-details {:title "Metabolic Health & Weight Management"
-                                     :description ["Busy lifestyle, bad diet and lack of exercise makes it extremely difficult to manage and optimize the way we look and feel while avoiding the development of further diseases." "We help you understand your metabolism and the way your body works and reacts to different foods optimizing your diet, calories and glucose intake. "]
-                                     :conditions ["Glucose Monitoring" "Weight Management Aid"]
-                                     :icon [flare {:font-size "large"
-                                                   :color "secondary"}]}]  
-        image      [category-image "/img/athletic-man.jpg"]]
-
-    [box
-     [hidden {:sm-down true}
-      [category-container details image]]
-     [hidden {:md-up true}
-      [category-container image details]]]))
+  (let [styles (use-styles)]
+    [:div {:id "metabolic-health-and-weight-management"}
+     [category-container-even-position
+      [category-details {:title "Metabolic Health & Weight Management"
+                         :description ["Busy lifestyle, bad diet and lack of exercise make it extremely difficult to manage and optimize the way we look and feel while avoiding the development of further diseases." "We help you understand your metabolism and the way your body works and reacts to different foods optimizing your diet, calories and glucose intake. "]
+                         :conditions ["Glucose Monitoring" "Weight Management Aid"]
+                         :icon [flare {:font-size "large"
+                                       :color "secondary"}]}] 
+      [category-image "/img/metabolic-health-weight-management.jpg"]]]))
 
 (defn conditions []
   [box
    [typography 
-    {:classes {:root (:centered-large-text (use-styles))}}
+    {:id "treat"
+     :classes {:root (:centered-large-text (use-styles))}}
     "What We Treat"]
    [sexual-health]
    [break]
@@ -286,7 +294,6 @@
 (defn landing-page []
   [box
    [appbar]
-   [:br][:br][:br]
    [main-section]
    [app-container [conditions]]
    [footer]

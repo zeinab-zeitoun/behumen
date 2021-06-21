@@ -24,8 +24,8 @@ return reagent.dom.render.cljs$core$IFn$_invoke$arity$3(new cljs.core.Persistent
 behumen.core.init_BANG_ = (function behumen$core$init_BANG_(){
 re_frame.core.dispatch_sync(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"initialize-db","initialize-db",230998432)], null));
 
-reitit.frontend.easy.start_BANG_(behumen.routes.reitit_routes,(function (p1__69564_SHARP_){
-var route = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(p1__69564_SHARP_);
+reitit.frontend.easy.start_BANG_(behumen.routes.reitit_routes,(function (p1__65094_SHARP_){
+var route = new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(p1__65094_SHARP_);
 if(cljs.core.contains_QMARK_(route,new cljs.core.Keyword(null,"type","type",1174270348))){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-current-page-type","set-current-page-type",-285930579),new cljs.core.Keyword(null,"type","type",1174270348).cljs$core$IFn$_invoke$arity$1(route)], null));
 } else {
@@ -33,7 +33,7 @@ re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.Pers
 
 rams_ui.components.nav.set_url_selected(new cljs.core.Keyword(null,"main-nav","main-nav",1431396283),new cljs.core.Keyword(null,"path","path",-188191168).cljs$core$IFn$_invoke$arity$1(route));
 
-return rams_ui.util.open_url.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"path","path",-188191168).cljs$core$IFn$_invoke$arity$1(route),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"params","params",710516235),new cljs.core.Keyword(null,"query-params","query-params",900640534).cljs$core$IFn$_invoke$arity$1(p1__69564_SHARP_),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.Keyword(null,"label","label",1718410804).cljs$core$IFn$_invoke$arity$1(route)], 0));
+return rams_ui.util.open_url.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"path","path",-188191168).cljs$core$IFn$_invoke$arity$1(route),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"params","params",710516235),new cljs.core.Keyword(null,"query-params","query-params",900640534).cljs$core$IFn$_invoke$arity$1(p1__65094_SHARP_),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.Keyword(null,"label","label",1718410804).cljs$core$IFn$_invoke$arity$1(route)], 0));
 }
 }),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"use-fragment","use-fragment",-1617737154),false], null));
 

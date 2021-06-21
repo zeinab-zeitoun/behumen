@@ -1,37 +1,37 @@
 html {
     font-size: 13px;
 }
+
 body {
       padding: 0;
       margin: 0;
 }
-
 .main-image-bg {
-    height: 30vh;
+    height: 25vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/man-heart-symbol.png");
-    padding-top: 2rem;
-    padding-left: 1.5rem;}
+    background-image: url("../img/doctor.jpg");
+    padding-top: 2.5rem;
+    padding-inline: 1rem;}
 
 @media only screen and (min-width: 600px){
     html {
         font-size: 15px;
     }
     .main-image-bg {
-        height: 40vh;
-        padding-top: 8rem;}
+        padding-top: 5rem;
+        padding-inline: 1rem;
+        height: max(40vh, 500px);
+        }
 }
-
-
 @media only screen and (min-width: 1500px) {
     html {
         font-size: 16px;
     }
     .main-image-bg {
-        padding: 8rem;
-        height: 60vh;
-        padding-top: none;
-        padding-left: none;
+        height: max(60vh, 600px);
+        padding-top: 7rem;
+        padding-inline: 1rem;
     }
 }
+
